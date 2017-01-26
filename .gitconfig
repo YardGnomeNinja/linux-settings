@@ -1,0 +1,36 @@
+[color]
+	ui = true
+[merge]
+	ff = false
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[diff]
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = magenta
+	local = yellow
+	remote = cyan
+[color "diff"]
+	meta = yellow
+	frag = magenta
+	old = red
+	new = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[core]
+	excludesfile = /Users/charlessigo/.gitignore_global
+[push]
+	default = simple
+[url "https://"]
+	insteadOf = git://
+[user]
+	name = CharlesSigo
+	email = chuck@sdicg.com
