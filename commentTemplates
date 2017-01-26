@@ -1,0 +1,77 @@
+---------------------------------------------------
+-- CLASS / SERVICE / MODEL / CONTROLLER          -- 
+--               Header                          --
+---------------------------------------------------
+/**
+  * A ~class/service/model/controller~ for
+  * ~Describe purpose of class/service/model/controller~
+  *
+  * @category  ~Class/Service/Model/Controller~
+  * @version   ~0.0.1~
+  * @since     ~YYYY-MM-DD~
+  * @author    ~Author Name~ <~Author Email~>
+  */
+
+
+---------------------------------------------------
+-- CONTROLLER                                    -- 
+-- Method                                        --
+---------------------------------------------------
+  /**
+    * ~Describe purpose of method~
+    * <pre class="~GET/POST/PUT/DELETE~"> ~GET/POST/PUT/DELETE~ [url]~path/:parameter_name/etc~ </pre>
+    *
+    * @param **~String/Number/MySQLi/Etc~** - ~parameter_name~
+    * @param **~String/Number/MySQLi/Etc~** - ~parameter_name~
+    *
+    * **No ~POST/PUT~ body**
+    *
+    * @example
+    * Example ~POST/PUT~ body
+    * <code>
+    * {
+    *     "property1": "value"
+    *   , "object": {
+    *                   "property2": "value"
+    *                 , "property3": "value"
+    *               }
+    *   , "array": ["a","b","c"]
+    * }
+    * </code>
+    *
+    * @return **~Void/Null/String/Array/Class Object/Etc~** - contains ~Describe return value~ 
+    *
+    * @throws **~ExceptionType~**
+    *
+    * @since   ~YYYY-MM-DD~
+    * @author  ~Author Name~ <~Author Email~>
+    *
+    */
+
+
+---------------------------------------------------
+-- CLASS / SERVICE / MODEL                       -- 
+-- Method                                        --
+---------------------------------------------------
+  /**
+    * ~Describe purpose of method~
+    *
+    * @param **~String/Number/MySQLi/Etc~** - ~parameter_name~
+    * @param **~String/Number/MySQLi/Etc~** - ~parameter_name~
+    *
+    * @example
+    * ~Describe example~ 
+    * <code>
+    * $object = new stdClass();
+    * $object->property = 'value';
+    * $returnValue = Class::method(object);
+    * </code>
+    *
+    * @return **~Void/Null/String/Array/Class Object/Etc~** - contains ~describe return value~ 
+    *
+    * @throws **~ExceptionType~**
+    *
+    * @since   ~YYYY-MM-DD~
+    * @author  ~Author Name~ <~Author Email~>
+    *
+    */ 
